@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investasi Efisiensi Energi pada Aset Pemerintah</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Optimized loading of external resources -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Investasi Efisiensi Energi pada Aset Pemerintah</h1>
+            <p class="subtitle">Analisis Teknis Investasi Efisiensi Energi</p>
+        </header>
+
+        <!-- Summary Cards -->
+        <div class="summary-cards">
+            <div class="card primary-card">
+                <div class="card-header">
+                    <h2>Total Investasi</h2>
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                <p class="big-number">189.49 trillion IDR</p>
+                <p class="medium-text">11.84 billion USD</p>
+            </div>
+            
+            <div class="card accent-card">
+                <div class="card-header">
+                    <h2>Reduksi Karbon</h2>
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <p class="big-number">27.2M tCO₂e/year</p>
+                <p class="medium-text">Equivalent to 679.7M trees</p>
+            </div>
+            
+            <div class="card secondary-card">
+                <div class="card-header">
+                    <h2>Lingkup Proyek</h2>
+                    <i class="fas fa-building"></i>
+                </div>
+                <p class="medium-text">Bangunan Gedung, Kendaraan Dinas, dan Alat Penerangan Jalan (APJ)</p>
+            </div>
+        </div>
+
+        <!-- Charts with optimized structure -->
+        <div class="charts">
+            <div class="chart-container">
+                <div class="card dark-card" id="investment-card">
+                    <h3>Investment Breakdown (trillion IDR)</h3>
+                    <div class="canvas-wrapper">
+                        <canvas id="investmentChart" height="220" width="350"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chart-container">
+                <div class="card dark-card" id="emission-card">
+                    <h3>Kontribusi Reduksi Emisi (tCO₂e/year)</h3>
+                    <div class="canvas-wrapper">
+                        <canvas id="emissionChart" height="220" width="350"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Building Section -->
+        <section class="data-section">
+            <h2 class="section-header">Bangunan Gedung Pemerintah</h2>
+            <div class="cards-grid">
+                <!-- Building cards will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Vehicle Section -->
+        <section class="data-section">
+            <h2 class="section-header">Kendaraan Dinas</h2>
+            <div class="cards-grid">
+                <!-- Vehicle cards will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Lighting Section -->
+        <section class="data-section">
+            <h2 class="section-header">Alat Penerangan Jalan</h2>
+            <div class="cards-grid">
+                <!-- Lighting cards will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 Green Investment Dashboard</p>
+        </footer>
+    </div>
+
+    <!-- Optimized script loading -->
+    <script src="data.js"></script>
+    <script src="app.js" defer></script>
+</body>
+</html>
